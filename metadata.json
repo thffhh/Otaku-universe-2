@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: Otaku Universe: Ultimate Anime CMS",
+  "description": "An enterprise-level anime streaming ecosystem featuring multi-language support, role management, live customization, and comprehensive OTT management tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

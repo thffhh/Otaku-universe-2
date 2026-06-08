@@ -1,0 +1,222 @@
+{
+  "entities": {
+    "Anime": {
+      "title": "Anime",
+      "description": "An anime series catalog entry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "altNames": { "type": "array" },
+        "poster": { "type": "string" },
+        "banner": { "type": "string" },
+        "trailer": { "type": "string" },
+        "synopsis": { "type": "string" },
+        "studio": { "type": "string" },
+        "year": { "type": "integer" },
+        "status": { "type": "string", "enum": ["Ongoing", "Completed", "Upcoming"] },
+        "genres": { "type": "array" },
+        "tags": { "type": "array" },
+        "views": { "type": "integer" },
+        "likes": { "type": "integer" },
+        "watchTime": { "type": "integer" },
+        "favorites": { "type": "integer" },
+        "rating": { "type": "number" },
+        "bannerVideoUrl": { "type": "string" },
+        "screenshots": { "type": "array" }
+      },
+      "required": ["id", "name"]
+    },
+    "Season": {
+      "title": "Season",
+      "description": "An anime season",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "animeId": { "type": "string" },
+        "name": { "type": "string" },
+        "number": { "type": "integer" }
+      },
+      "required": ["id", "animeId", "name", "number"]
+    },
+    "Episode": {
+      "title": "Episode",
+      "description": "An episode in a season",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "seasonId": { "type": "string" },
+        "animeId": { "type": "string" },
+        "name": { "type": "string" },
+        "number": { "type": "integer" },
+        "duration": { "type": "integer" },
+        "videoUrl": { "type": "string" },
+        "subtitleUrl": { "type": "string" },
+        "views": { "type": "integer" }
+      },
+      "required": ["id", "seasonId", "animeId", "name", "number"]
+    },
+    "User": {
+      "title": "User",
+      "description": "An anime CMS user registration",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "avatar": { "type": "string" },
+        "role": { "type": "string", "enum": ["Super Admin", "Admin", "Moderator", "Uploader", "Editor", "Support", "User"] },
+        "status": { "type": "string", "enum": ["active", "banned", "suspended"] },
+        "registeredAt": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "role"]
+    },
+    "Language": {
+      "title": "Language",
+      "description": "Supported display language",
+      "type": "object",
+      "properties": {
+        "code": { "type": "string" },
+        "name": { "type": "string" },
+        "isDefault": { "type": "boolean" }
+      },
+      "required": ["code", "name"]
+    },
+    "ThemeConfig": {
+      "title": "ThemeConfig",
+      "description": "Dynamic layout visualization configurations",
+      "type": "object",
+      "properties": {
+        "primaryColor": { "type": "string" },
+        "secondaryColor": { "type": "string" },
+        "bgColor": { "type": "string" },
+        "cardBgColor": { "type": "string" },
+        "textColor": { "type": "string" },
+        "fontFamily": { "type": "string" },
+        "borderRadius": { "type": "string" },
+        "headerStyle": { "type": "string" },
+        "heroSliderLayout": { "type": "string" }
+      },
+      "required": ["primaryColor", "bgColor"]
+    },
+    "ServiceConnections": {
+      "title": "ServiceConnections",
+      "description": "Integration configurations for streaming APIs",
+      "type": "object",
+      "properties": {
+        "websiteUrl": { "type": "string" },
+        "realtimeEnabled": { "type": "boolean" },
+        "socketUrl": { "type": "string" },
+        "mongoUri": { "type": "string" },
+        "firebaseStatus": { "type": "string" }
+      },
+      "required": ["websiteUrl", "realtimeEnabled"]
+    },
+    "AdCampaign": {
+      "title": "AdCampaign",
+      "description": "Ad monetization structures",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "type": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "videoUrl": { "type": "string" },
+        "ctaLink": { "type": "string" },
+        "enabled": { "type": "boolean" },
+        "impressions": { "type": "integer" },
+        "clicks": { "type": "integer" }
+      },
+      "required": ["id", "title", "type", "ctaLink"]
+    },
+    "RealtimeEvent": {
+      "title": "RealtimeEvent",
+      "description": "Activity stream action event logs",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "eventName": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "description": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["id", "eventName", "timestamp"]
+    },
+    "SecurityLog": {
+      "title": "SecurityLog",
+      "description": "Admin dashboard access and security tracking logs",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "email": { "type": "string" },
+        "action": { "type": "string" },
+        "status": { "type": "string" },
+        "ipAddress": { "type": "string" },
+        "device": { "type": "string" },
+        "country": { "type": "string" }
+      },
+      "required": ["id", "timestamp", "email", "action"]
+    },
+    "FileAsset": {
+      "title": "FileAsset",
+      "description": "Metadata for uploaded video files and media assets",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "type": { "type": "string" },
+        "url": { "type": "string" },
+        "size": { "type": "string" },
+        "uploadedAt": { "type": "string" }
+      },
+      "required": ["id", "name", "type", "url"]
+    }
+  },
+  "firestore": {
+    "/anime/{animeId}": {
+      "schema": "Anime",
+      "description": "Root-level anime series data collection"
+    },
+    "/seasons/{seasonId}": {
+      "schema": "Season",
+      "description": "Seasons records synced across users"
+    },
+    "/episodes/{episodeId}": {
+      "schema": "Episode",
+      "description": "Episodes records synced across users"
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "CMS Users records with admin/moderator roles"
+    },
+    "/languages/{langId}": {
+      "schema": "Language",
+      "description": "Translatable locales configurations"
+    },
+    "/themeConfig/current": {
+      "schema": "ThemeConfig",
+      "description": "Global custom theme configuration metadata"
+    },
+    "/serviceConnections/current": {
+      "schema": "ServiceConnections",
+      "description": "Active external systems status details"
+    },
+    "/adCampaigns/{adId}": {
+      "schema": "AdCampaign",
+      "description": "Commercial campaigns details"
+    },
+    "/realtimeEvents/{eventId}": {
+      "schema": "RealtimeEvent",
+      "description": "Recent activity logs seen by viewers"
+    },
+    "/securityLogs/{logId}": {
+      "schema": "SecurityLog",
+      "description": "Security logs for tracing panel authentication attempts"
+    },
+    "/fileAssets/{assetId}": {
+      "schema": "FileAsset",
+      "description": "Synchronized static server-side uploaded media records"
+    }
+  }
+}

@@ -1,0 +1,835 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "isDefault": true
+    },
+    {
+      "code": "bn",
+      "name": "বাংলা",
+      "isDefault": false
+    },
+    {
+      "code": "hi",
+      "name": "हिन्दी",
+      "isDefault": false
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "isDefault": false
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "isDefault": false
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "isDefault": false
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "isDefault": false
+    },
+    {
+      "code": "tr",
+      "name": "Türkçe",
+      "isDefault": false
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "isDefault": false
+    }
+  ],
+  "anime": [
+    {
+      "id": "a-1",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "altNames": [
+        "Blade of Demon Destruction",
+        "Kimetsu no Yaiba"
+      ],
+      "poster": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500&q=80",
+      "banner": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=1600&q=80",
+      "trailer": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "synopsis": "Tanjirou Kamado is a kindhearted and intelligent boy who lives with his family in the mountains. He has become his family's sole breadwinner after his father's passing, making trips to the neighboring village to sell charcoal. Everything changes when he comes home to find that his family has been slaughtered by a demon.",
+      "studio": "ufotable",
+      "year": 2019,
+      "status": "Ongoing",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "tags": [
+        "Demon Hunters",
+        "Historical",
+        "Swordsmanship",
+        "Gore"
+      ],
+      "views": 452900,
+      "likes": 38240,
+      "watchTime": 125000,
+      "favorites": 18450,
+      "rating": 9.2,
+      "bannerVideoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "reviews": [
+        {
+          "id": "r-1",
+          "userName": "Tanvir Ahmed",
+          "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&q=80",
+          "rating": 10,
+          "content": "ufotable strikes again! Unbelievable animation quality and stunning cinematic sound design. Must watch OTT anime of this decade!",
+          "createdAt": "2026-06-01"
+        },
+        {
+          "id": "r-2",
+          "userName": "Saber Gigu",
+          "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+          "rating": 9,
+          "content": "Tanjirou's determination is so inspiring. Nezuko is extremely adorable. Absolutely loved the action choreography.",
+          "createdAt": "2026-06-03"
+        }
+      ],
+      "characters": [
+        {
+          "id": "c-1",
+          "name": "Tanjiro Kamado",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=200&q=80",
+          "voiceActor": "Natsuki Hanae"
+        },
+        {
+          "id": "c-2",
+          "name": "Nezuko Kamado",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=200&q=80",
+          "voiceActor": "Akari Kito"
+        },
+        {
+          "id": "c-3",
+          "name": "Zenitsu Agatsuma",
+          "role": "Supporting",
+          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&q=80",
+          "voiceActor": "Hiro Shimono"
+        }
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&q=80",
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&q=80"
+      ]
+    },
+    {
+      "id": "a-2",
+      "name": "Attack on Titan",
+      "altNames": [
+        "Shingeki no Kyojin",
+        "AOT"
+      ],
+      "poster": "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=500&q=80",
+      "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&q=80",
+      "trailer": "https://www.youtube.com/embed/MGRm4IzK1SQ",
+      "synopsis": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born of hunger but what seems to be out of pleasure.",
+      "studio": "MAPPA",
+      "year": 2013,
+      "status": "Completed",
+      "genres": [
+        "Action",
+        "Drama",
+        "Suspense",
+        "Military"
+      ],
+      "tags": [
+        "Giant Monsters",
+        "Walls",
+        "Politics",
+        "Eren Jaeger"
+      ],
+      "views": 890450,
+      "likes": 74900,
+      "watchTime": 420000,
+      "favorites": 45090,
+      "rating": 9.6,
+      "bannerVideoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "reviews": [
+        {
+          "id": "r-3",
+          "userName": "Zeke Yaeger",
+          "userAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
+          "rating": 10,
+          "content": "Mind boggling plot. The twists are unbelievably planned out since the first episode itself. Truly a masterpiece!",
+          "createdAt": "2026-05-25"
+        }
+      ],
+      "characters": [
+        {
+          "id": "c-4",
+          "name": "Eren Yeager",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+          "voiceActor": "Yuki Kaji"
+        },
+        {
+          "id": "c-5",
+          "name": "Mikasa Ackerman",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+          "voiceActor": "Yui Ishikawa"
+        },
+        {
+          "id": "c-6",
+          "name": "Levi Ackerman",
+          "role": "Supporting",
+          "image": "https://images.unsplash.com/photo-1628157582853-a796fa650a6a?w=200&q=80",
+          "voiceActor": "Hiroshi Kamiya"
+        }
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80",
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80"
+      ]
+    },
+    {
+      "id": "a-3",
+      "name": "Jujutsu Kaisen",
+      "altNames": [
+        "Sorcery Fight",
+        "JJK"
+      ],
+      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=500&q=80",
+      "banner": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1600&q=80",
+      "trailer": "https://www.youtube.com/embed/pmS0_Zly9iY",
+      "synopsis": "Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the bizarre when he encounters a cursed item.",
+      "studio": "MAPPA",
+      "year": 2020,
+      "status": "Ongoing",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Shounen"
+      ],
+      "tags": [
+        "Curses",
+        "Jujutsu Sorcerers",
+        "Superpowers",
+        "Gojo Satoru"
+      ],
+      "views": 615000,
+      "likes": 51200,
+      "watchTime": 231000,
+      "favorites": 28100,
+      "rating": 8.9,
+      "bannerVideoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "reviews": [
+        {
+          "id": "r-4",
+          "userName": "GojoFan",
+          "userAvatar": "https://images.unsplash.com/photo-1628157582853-a796fa650a6a?w=100&q=80",
+          "rating": 9,
+          "content": "Satoru Gojo steals every scene he enters. Absolute fire animations and highly engaging story.",
+          "createdAt": "2026-06-04"
+        }
+      ],
+      "characters": [
+        {
+          "id": "c-7",
+          "name": "Yuji Itadori",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=200&q=80",
+          "voiceActor": "Junya Enoki"
+        },
+        {
+          "id": "c-8",
+          "name": "Satoru Gojo",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?w=200&q=80",
+          "voiceActor": "Yuichi Nakamura"
+        }
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&q=80"
+      ]
+    },
+    {
+      "id": "a-4",
+      "name": "Chainsaw Man",
+      "altNames": [
+        "CSM"
+      ],
+      "poster": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80",
+      "banner": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600&q=80",
+      "trailer": "https://www.youtube.com/embed/l96zW9V8vyc",
+      "synopsis": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. Due to the debt his father left behind, he has been living a rock-bottom life while repaying his debt by harvesting devil corpses with Pochita. One day, Denji is betrayed and killed. As his consciousness fades, he makes a contract with Pochita and gets revived as Chainsaw Man.",
+      "studio": "MAPPA",
+      "year": 2022,
+      "status": "Ongoing",
+      "genres": [
+        "Action",
+        "Gore",
+        "Comedy"
+      ],
+      "tags": [
+        "Devils",
+        "Contracts",
+        "Aesthetic",
+        "Makima"
+      ],
+      "views": 310000,
+      "likes": 27500,
+      "watchTime": 110000,
+      "favorites": 15400,
+      "rating": 8.7,
+      "reviews": [],
+      "characters": [
+        {
+          "id": "c-9",
+          "name": "Denji",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&q=80",
+          "voiceActor": "Kiyonori Toya"
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "id": "a-5",
+      "name": "Solo Leveling",
+      "altNames": [
+        "Ore dake Level Up na Ken"
+      ],
+      "poster": "https://images.unsplash.com/photo-1563089145-599997674d42?w=500&q=80",
+      "banner": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1600&q=80",
+      "trailer": "https://www.youtube.com/embed/8PCvLidvQp0",
+      "synopsis": "In a world where hunters, humans who possess supernatural abilities, must battle deadly monsters to protect mankind from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a struggle for survival in an ultra-deadly double dungeon.",
+      "studio": "A-1 Pictures",
+      "year": 2024,
+      "status": "Ongoing",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Adventure"
+      ],
+      "tags": [
+        "Overpowered Mc",
+        "Gates",
+        "Levels",
+        "Shadow Monarch"
+      ],
+      "views": 520000,
+      "likes": 49000,
+      "watchTime": 189000,
+      "favorites": 31000,
+      "rating": 9,
+      "reviews": [],
+      "characters": [
+        {
+          "id": "c-10",
+          "name": "Sung Jinwoo",
+          "role": "Main",
+          "image": "https://images.unsplash.com/photo-1563089145-599997674d42?w=200&q=80",
+          "voiceActor": "Taito Ban"
+        }
+      ],
+      "screenshots": []
+    },
+    {
+      "id": "a-6",
+      "name": "Kaiju No. 8",
+      "altNames": [
+        "Monster #8"
+      ],
+      "poster": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&q=80",
+      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&q=80",
+      "trailer": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "synopsis": "Monsters known as Kaiju have been plaguing Japan for years. Kafka Hibino, a 32-year-old sweep-up man who dreams of joining the Japan Defense Force, unexpectedly gains the ability to transform into a Kaiju himself, designated as Kaiju No. 8.",
+      "studio": "Production I.G",
+      "year": 2024,
+      "status": "Upcoming",
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Military"
+      ],
+      "tags": [
+        "Giant Monsters",
+        "Mecha Suits",
+        "Combat"
+      ],
+      "views": 12000,
+      "likes": 800,
+      "watchTime": 400,
+      "favorites": 1200,
+      "rating": 8.4,
+      "reviews": [],
+      "characters": [],
+      "screenshots": []
+    }
+  ],
+  "seasons": [
+    {
+      "id": "s-1_1",
+      "animeId": "a-1",
+      "name": "Season 1: Kamado Tanjirou R立志篇",
+      "number": 1
+    },
+    {
+      "id": "s-1_2",
+      "animeId": "a-1",
+      "name": "Season 2: Mugen Train & Entertainment District Arc",
+      "number": 2
+    },
+    {
+      "id": "s-2_1",
+      "animeId": "a-2",
+      "name": "Season 1: Humanity's Counterattack",
+      "number": 1
+    },
+    {
+      "id": "s-2_2",
+      "animeId": "a-2",
+      "name": "Season 2: Return to Shiganshina",
+      "number": 2
+    },
+    {
+      "id": "s-3_1",
+      "animeId": "a-3",
+      "name": "Season 1: Cursed Womb Must Die",
+      "number": 1
+    },
+    {
+      "id": "s-4_1",
+      "animeId": "a-4",
+      "name": "Season 1: Public Safety Arc",
+      "number": 1
+    },
+    {
+      "id": "s-5_1",
+      "animeId": "a-5",
+      "name": "Season 1: Dual Dungeon Incident",
+      "number": 1
+    }
+  ],
+  "episodes": [
+    {
+      "id": "e-1_1_1",
+      "seasonId": "s-1_1",
+      "animeId": "a-1",
+      "name": "Cruelty",
+      "number": 1,
+      "duration": 24,
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "subtitleUrl": "",
+      "views": 124000,
+      "skipIntroStart": 30,
+      "skipIntroEnd": 90,
+      "skipOutroStart": 1320,
+      "downloads": [
+        {
+          "id": "d-1",
+          "label": "Google Drive Highspeed",
+          "url": "https://drive.google.com"
+        },
+        {
+          "id": "d-2",
+          "label": "Mega Premium CDN",
+          "url": "https://mega.nz"
+        },
+        {
+          "id": "d-3",
+          "label": "OneDrive Mirror",
+          "url": "https://onedrive.live.com"
+        }
+      ]
+    },
+    {
+      "id": "e-1_1_2",
+      "seasonId": "s-1_1",
+      "animeId": "a-1",
+      "name": "Trainer Sakonji Urokodaki",
+      "number": 2,
+      "duration": 24,
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "subtitleUrl": "",
+      "views": 112000,
+      "skipIntroStart": 30,
+      "skipIntroEnd": 90,
+      "skipOutroStart": 1320,
+      "downloads": [
+        {
+          "id": "d-4",
+          "label": "Mega Direct",
+          "url": "https://mega.nz"
+        }
+      ]
+    },
+    {
+      "id": "e-1_1_3",
+      "seasonId": "s-1_1",
+      "animeId": "a-1",
+      "name": "Sabito and Makomo",
+      "number": 3,
+      "duration": 23,
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "subtitleUrl": "",
+      "views": 104000,
+      "downloads": []
+    },
+    {
+      "id": "e-1_2_1",
+      "seasonId": "s-1_2",
+      "animeId": "a-1",
+      "name": "Flame Hashira Kyojuro Rengoku",
+      "number": 1,
+      "duration": 27,
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "subtitleUrl": "",
+      "views": 95500,
+      "downloads": []
+    },
+    {
+      "id": "e-2_1_1",
+      "seasonId": "s-2_1",
+      "animeId": "a-2",
+      "name": "To You, in 2000 Years: The Fall of Shiganshina, Part 1",
+      "number": 1,
+      "duration": 25,
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "subtitleUrl": "",
+      "views": 310000,
+      "skipIntroStart": 45,
+      "skipIntroEnd": 105,
+      "downloads": [
+        {
+          "id": "d-5",
+          "label": "Direct Cloud Server",
+          "url": "https://otakuuniverse.com"
+        }
+      ]
+    },
+    {
+      "id": "e-2_1_2",
+      "seasonId": "s-2_1",
+      "animeId": "a-2",
+      "name": "That Day: The Fall of Shiganshina, Part 2",
+      "number": 2,
+      "duration": 25,
+      "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "subtitleUrl": "",
+      "views": 295000,
+      "downloads": []
+    },
+    {
+      "id": "e-3_1_1",
+      "seasonId": "s-3_1",
+      "animeId": "a-3",
+      "name": "Ryomen Sukuna",
+      "number": 1,
+      "duration": 24,
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "subtitleUrl": "",
+      "views": 280000,
+      "downloads": []
+    }
+  ],
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Tanvir Ahmed",
+      "email": "tanvirahmeda98@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&q=80",
+      "role": "Super Admin",
+      "status": "active",
+      "registeredAt": "2026-05-01"
+    },
+    {
+      "id": "u-2",
+      "name": "Natsuki Sakura",
+      "email": "uploader.natsuki@otaku.com",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+      "role": "Uploader",
+      "status": "active",
+      "registeredAt": "2026-05-15"
+    },
+    {
+      "id": "u-3",
+      "name": "Mufasa Chowdhury",
+      "email": "user.mufasa@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&q=80",
+      "role": "User",
+      "status": "active",
+      "registeredAt": "2026-06-01"
+    },
+    {
+      "id": "u-4",
+      "name": "Yagami Light",
+      "email": "kira@deathnote.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
+      "role": "Moderator",
+      "status": "suspended",
+      "registeredAt": "2026-05-20"
+    }
+  ],
+  "connections": {
+    "websiteUrl": "https://ais-pre-thuknhmvide7yvtkyo7pdv-275775462182.asia-southeast1.run.app",
+    "realtimeEnabled": true,
+    "socketUrl": "wss://socket.otakuuniverse-v4.net",
+    "socketPath": "/socket.io",
+    "reconnectAttempts": 10,
+    "reconnectDelay": 3000,
+    "socketStatus": "connected",
+    "mongoUri": "mongodb+srv://admin:tanvir12#@cluster0.p7qka.mongodb.net/otaku_db?retryWrites=true&w=majority",
+    "mongoStatus": "connected",
+    "firebaseConfig": {
+      "apiKey": "AIzaSyA4xM_D8pX..._v4_ott",
+      "projectId": "otaku-universe-v4",
+      "appId": "1:58493012:web:98acbf",
+      "authDomain": "auth.otakuuniverse.com",
+      "storageBucket": "ott-assets.appspot.com"
+    },
+    "firebaseStatus": "connected",
+    "storageProvider": "cloudinary",
+    "cloudinaryConfig": {
+      "cloudName": "otaku-universe-cloudinary",
+      "apiKey": "98415273901458",
+      "apiSecret": "F92_ApxZqYvNlmvT9"
+    },
+    "bunnyConfig": {
+      "storageZone": "otaku_cdn",
+      "apiKey": "bc-9a1f4b-2248",
+      "cdnUrl": "https://otaku.bunnycdn.net"
+    },
+    "storageStatus": "connected",
+    "smtpConfig": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "user": "tanvirahmeda98@gmail.com",
+      "pass": "••••••••••••"
+    },
+    "smtpStatus": "connected",
+    "telegramConfig": {
+      "botToken": "681530182:AAF9Z-r-18zY...",
+      "channelId": "@otaku_universe_v4_updates",
+      "groupId": "-1001859302"
+    },
+    "telegramStatus": "connected",
+    "discordWebhookUrl": "https://discord.com/api/webhooks/12345/abcde-fghij-klmno",
+    "discordWebhookEnabled": true,
+    "googleAnalyticsId": "G-7F982X9CDY",
+    "adsensePublisherId": "pub-8920158493105156"
+  },
+  "ads": [
+    {
+      "id": "ad-1",
+      "title": "Aniplex Official Action Figures Store Discount",
+      "type": "banner-top",
+      "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&q=50",
+      "ctaLink": "https://www.aniplexplus.com/",
+      "targetCountry": "All",
+      "enabled": true,
+      "impressions": 14500,
+      "clicks": 1240
+    },
+    {
+      "id": "ad-2",
+      "title": "Crunchyroll Expo 2026 Ticket Pre-sale",
+      "type": "banner-sidebar",
+      "imageUrl": "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=600&q=50",
+      "ctaLink": "https://expo.crunchyroll.com/",
+      "targetCountry": "Bangladesh",
+      "enabled": true,
+      "impressions": 4800,
+      "clicks": 650
+    },
+    {
+      "id": "ad-3",
+      "title": "Direct Smart Link Promo (Sponsor)",
+      "type": "banner-footer",
+      "imageUrl": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200&q=50",
+      "ctaLink": "https://sponsor.com",
+      "targetCountry": "All",
+      "enabled": true,
+      "impressions": 22000,
+      "clicks": 1800
+    },
+    {
+      "id": "ad-4",
+      "title": "Pre-Roll Cinematic Ad (Otaku merchandise)",
+      "type": "pre-roll",
+      "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+      "ctaLink": "https://otakumarket.com",
+      "targetCountry": "All",
+      "enabled": true,
+      "duration": 10,
+      "impressions": 3200,
+      "clicks": 520
+    }
+  ],
+  "securityLogs": [
+    {
+      "id": "sec-1780877931333",
+      "timestamp": "2026-06-08 00:18:51",
+      "email": "tanvirahmeda98@gmail.com",
+      "action": "System Dashboard Entrance (Local)",
+      "status": "Success",
+      "ipAddress": "103.112.54.91",
+      "device": "Chrome / Linux Container",
+      "country": "Bangladesh"
+    },
+    {
+      "id": "sec-1",
+      "timestamp": "2026-06-07 06:12:30",
+      "email": "tanvirahmeda98@gmail.com",
+      "action": "OAuth Key Rotation",
+      "status": "Success",
+      "ipAddress": "103.112.54.91",
+      "device": "Chrome / Windows",
+      "country": "Bangladesh"
+    },
+    {
+      "id": "sec-2",
+      "timestamp": "2026-06-07 05:44:11",
+      "email": "intruder@hacker.net",
+      "action": "Admin Panel Login Attempt",
+      "status": "Failed",
+      "ipAddress": "198.51.100.42",
+      "device": "Firefox / Linux",
+      "country": "United States"
+    },
+    {
+      "id": "sec-3",
+      "timestamp": "2026-06-06 21:30:15",
+      "email": "tanvirahmeda98@gmail.com",
+      "action": "Dashboard Settings Update",
+      "status": "Success",
+      "ipAddress": "103.112.54.91",
+      "device": "Chrome / Windows",
+      "country": "Bangladesh"
+    },
+    {
+      "id": "sec-4",
+      "timestamp": "2026-06-06 18:22:45",
+      "email": "uploader.natsuki@otaku.com",
+      "action": "Anime Upload (Solo Leveling)",
+      "status": "Success",
+      "ipAddress": "182.51.21.3",
+      "device": "Safari / macOS",
+      "country": "Japan"
+    }
+  ],
+  "realtimeEvents": [
+    {
+      "id": "evt-1780879203700",
+      "eventName": "backup_complete",
+      "timestamp": "Now",
+      "description": "Successfully exported Production ZIP containing dynamic assets, schemas, Docker controls and routing systems.",
+      "status": "success"
+    },
+    {
+      "id": "evt-1780878490150",
+      "eventName": "backup_complete",
+      "timestamp": "Now",
+      "description": "Successfully exported Production ZIP containing dynamic assets, schemas, Docker controls and routing systems.",
+      "status": "success"
+    },
+    {
+      "id": "evt-1780878481817",
+      "eventName": "backup_complete",
+      "timestamp": "Now",
+      "description": "Successfully exported Production ZIP containing dynamic assets, schemas, Docker controls and routing systems.",
+      "status": "success"
+    },
+    {
+      "id": "evt-1780878432464",
+      "eventName": "backup_complete",
+      "timestamp": "Now",
+      "description": "Successfully exported Production ZIP containing dynamic assets, schemas, Docker controls and routing systems.",
+      "status": "success"
+    },
+    {
+      "id": "evt-1780877931346",
+      "eventName": "user_login",
+      "timestamp": "Now",
+      "description": "Super Admin \"Tanvir Ahmed\" gained entrance into the OTT cockpit.",
+      "status": "success"
+    },
+    {
+      "id": "evt-1",
+      "eventName": "user_register",
+      "timestamp": "06:33 AM",
+      "description": "New user \"Mufasa Chowdhury\" registered successfully.",
+      "status": "success"
+    },
+    {
+      "id": "evt-2",
+      "eventName": "anime_created",
+      "timestamp": "06:10 AM",
+      "description": "Anime \"Kaiju No. 8\" uploaded mapped with empty seasons list.",
+      "status": "info"
+    },
+    {
+      "id": "evt-3",
+      "eventName": "notification_sent",
+      "timestamp": "06:05 AM",
+      "description": "Push, Discord & Telegram notification broadcasted for Solo Leveling.",
+      "status": "success"
+    },
+    {
+      "id": "evt-4",
+      "eventName": "user_banned",
+      "timestamp": "Yesterday",
+      "description": "User account \"kira@deathnote.com\" suspended due to malicious reviews.",
+      "status": "warn"
+    }
+  ],
+  "fileAssets": [
+    {
+      "id": "f-1",
+      "name": "demon_slayer_s3_poster.jpg",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=300",
+      "size": "245 KB",
+      "uploadedAt": "2026-06-05"
+    },
+    {
+      "id": "f-2",
+      "name": "aot_promo_wide.png",
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800",
+      "size": "1.2 MB",
+      "uploadedAt": "2026-06-04"
+    },
+    {
+      "id": "f-3",
+      "name": "jjk_season1_english.vtt",
+      "type": "subtitle",
+      "url": "#",
+      "size": "42 KB",
+      "uploadedAt": "2026-06-01"
+    },
+    {
+      "id": "f-4",
+      "name": "otaku_universe_brand_logo.svg",
+      "type": "logo",
+      "url": "#",
+      "size": "15 KB",
+      "uploadedAt": "2026-05-01"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#e11d48",
+    "secondaryColor": "#be123c",
+    "bgColor": "#080a10",
+    "cardBgColor": "#0f1322",
+    "textColor": "#e2e8f0",
+    "fontFamily": "Space Grotesk",
+    "borderRadius": "12px",
+    "headerStyle": "glass",
+    "heroSliderLayout": "standard"
+  }
+}
